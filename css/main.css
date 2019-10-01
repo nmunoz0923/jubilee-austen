@@ -1,0 +1,178 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+}
+#about, #work, #contact {
+	height: 600px;
+}
+/***** GRID  *****/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+/**Jubilee Austen***/
+.half-width {
+	width: 600px;
+	float: left;
+}
+header {
+	height:800px;
+	background: url('../img/hero.png');
+	background-size:cover;
+}
+header h1 {
+	padding:50px 0px 50px 80px;
+	font-family: 'Lora',serif;
+	color:#becb92;
+}
+header h2 {
+	width:1000px;
+	clear:both;
+	font-family:'Lora', san-serif;
+	font-size:72px;
+	line-height:80px;
+	color:#9b9b9b;
+	padding:20px 0px 20px 80px;
+}
+nav {
+	float:right;
+	padding:75px 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-right:0px;
+}
+nav ul li {
+	display:inline-block;
+}
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: #9b9b9b;
+	padding-left: 80px;
+}
+h2 span{
+	color:#2b2b2b;
+}
+/**html,css,code**/
+.third-width {
+	width: 400px;
+	float: left;
+}
+/***** ABOUT SECTION ******/
+#about .full-width {
+	padding: 80px 0;
+	color:#2b2b2b;
+	font-size:2px;
+}
+#about h2 {
+	font-family:'Lora', serif;
+	font-size: 36px;
+	padding-left: 200px 0;
+	font-size: 40px;
+}
+
+#about p {
+	font-size: 30px;
+	color: #7f7f7f;
+	line-height: 40px 0;
+	padding-left: 0px 50;
+	padding-right: 20px 0;
+}
+/**** WORK SECTION ****/
+#work {
+	background-color: #f9ceb7;
+	text-align: center;
+}
+#work .full-width {
+	padding: 115px 0;
+}
+#work img {
+	padding-bottom: 30px;
+}
+#work h3 {
+	font-size:20px;
+	line-height: 50px;
+	width: 400px;
+	margin: 0 auto;
+}
+#work p {
+font-family:'Lora', serif;
+font-size:20px;
+line-height:20px 0;
+padding: 0 50px;
+}
+								/**** CONTACT ****/
+#contact {
+	background: #ebebeb;
+}
+#contact .full-width {
+	padding: 110px 0;
+}
+#contact-img{
+	border:12px solid #ffffff;
+	margin-left: 25px;
+	width:518px;
+	height:345px;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+	padding-left: 115px;
+}
+#contact #envelope {
+	padding: 0 10px 0 115px;
+	position: absolute;
+}
+#contact h3 {
+	padding: 0 10px 0 115px;
+	font-size:24px;
+	font-weight:10;
+	font-family:'Lora';
+	line-height: 75px;
+}
+							/***like what you see ****/
+#contact h2 {
+	font-family: 'Lora';
+	font-size: 40px;
+	line-height: 2.0px;
+	padding:10px 10px 0 115px;
+}
+#contact #email-header {
+	font-size:24px;
+	font-weight:10px;
+	line-height: 20px 0;
+	margin: -30px 0 5px 0;
+}
+#socialmedia-header{
+	font-weight:10px;
+	font-size: 24px;
+	line-height: 5px;
+	margin: 40px 0 0 0;
+	font-family: 'Lora',sans-serif;
+}
+/** hi @ jubillee.com **/
+#contact a {
+	text-decoration: none;
+	color: #d7beb2;
+	font-weight: 700;
+	font-size:28px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#contact ul{
+	list-style: none;
+}
+#contact ul li {
+	display: inline-block;
+}
+#contact ul img {
+	padding-right:48px;
+	font-size: 32px;
+}
+ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+li {
+	display:inline-block;
+	margin-right:1px;
+}
